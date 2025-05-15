@@ -19,21 +19,25 @@ body{
     width: 700px;
 }
 .t{
-    size: 12%;
-    color: rgb(255, 0, 0);
+   font-size: 700%;
+    color: rgb(255, 255, 255);
     position:absolute;
+    z-index: 1;
+    margin-bottom: 30%;
 }
 .ul{
     color: rgb(255, 0, 0);
     position: absolute;
-    margin-top: 5%;
+    margin-top: 30%;
+    font-size: 260%;
 }
 .ol{
     color: rgb(255, 0, 0);
     position: absolute;
-      margin-top: 5%;
-      margin-left: 12%;
+      margin-top: 30%;
+      margin-left: 35%;
       z-index: 1;
+     font-size: 260%;
       
 }
 ul{

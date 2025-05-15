@@ -1,0 +1,65 @@
+body{
+    background-size: cover;
+    
+}
+
+.about{
+    margin-left: 900px;
+
+    margin-right: 20px;
+}
+.contact{
+  
+ 
+margin-right: 20px;
+}
+.service{
+ 
+margin-right: 20px;
+}
+button{
+    background-color: transparent;
+    padding: 20px 40px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+}
+.p{
+margin-left: 20px;
+  font-size: x-large;
+}
+.in{
+    color:rgb(255, 255, 255);
+    margin-left: 8%;
+    margin-top: 10%;
+    font-size: 300%;
+}
+.ol{
+    color: rgb(255, 255, 255);
+  margin-left: 8%;
+}
+.ant{
+    padding-top: 10%;
+padding-left:3%;
+    color: white;
+    font-size: xx-large;
+}
+.para{
+    color: white;
+    font-size: larger;
+
+}
+.enna{
+    color: white;
+    font-size: larger;
+    margin-left: 2%;
+
+}
+.pp{
+    margin-left: 90%;
+}
+.contact{
+    color: white;
+    font-size: medium;
+    margin-left: 2%;
+
+}

@@ -1,0 +1,16 @@
+body{
+   background-size: cover;
+}
+button{
+    border-radius: 50px;
+    background-color: transparent;
+    color: black;
+    padding:20px 40px;
+    margin-left: 3%;
+    margin-right: 1%;
+    margin-top: 4%;
+}
+img{
+     mix-blend-mode: color-burn;
+    width: 400px;
+}

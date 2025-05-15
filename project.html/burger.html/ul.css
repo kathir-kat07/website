@@ -1,0 +1,41 @@
+
+body{
+    background-color: black;
+    
+}
+.fire{
+   margin-top: 30px;
+    width: 100%;
+    height:-40px;
+    position: relative;
+}
+
+.burger{
+    position: absolute;
+    float: right;
+    margin-left: 50%;
+    z-index: 1;
+    height: 760px;
+    width: 700px;
+}
+.t{
+    size: 12%;
+    color: rgb(255, 0, 0);
+    position:absolute;
+}
+.ul{
+    color: rgb(255, 0, 0);
+    position: absolute;
+    margin-top: 5%;
+}
+.ol{
+    color: rgb(255, 0, 0);
+    position: absolute;
+      margin-top: 5%;
+      margin-left: 12%;
+      z-index: 1;
+      
+}
+ul{
+    height: 20%;
+}

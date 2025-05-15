@@ -8,7 +8,10 @@
    
 }
 body{
-      background-size: cover;
+      background-image: url(Top\ view\ modern\ office\ desk.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 .ote{
     font-size: 50%;

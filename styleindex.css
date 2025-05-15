@@ -13,7 +13,11 @@ button{
     margin-top: 13%;
 }
 body{
-    background-size:cover;
+    
+     background-image: url(bc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .ui{
     margin-right: 4%;

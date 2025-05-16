@@ -1,0 +1,36 @@
+body{
+   background-color: rgb(255, 255, 255);
+}
+.o{
+    padding-top:  4%;
+}
+img{
+    mix-blend-mode: hard-light;
+  width: 500px;
+  height: 600px;
+  float:left;
+  position: relative;
+  z-index: 1;
+}
+.sc{
+    margin-right: 30%;
+  
+}
+
+button{
+    border-radius: 50px;
+    width: 500px;
+    height: 50px;
+    background-color: rgb(255, 166, 0);
+    color: black;
+}
+.bu{
+    margin-left: 40%;
+}
+div{
+    background-color: rgb(255, 255, 255);
+}
+.ta{
+    width: 50;
+    height: 60;
+}

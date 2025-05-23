@@ -1,5 +1,6 @@
 body{
     background-color: rgb(129, 100, 129);
+    background-size: cover;
 }
 .outline{
     border: 2px solid black;
@@ -27,4 +28,19 @@ body{
     position: absolute;
     margin-left: 9%;
    margin-top: 35.80%; 
+}
+.maindiv{
+    border: 1px solid rgb(173, 169, 173);
+    width: 30%;
+    height: 500px;
+   backdrop-filter: blur(8px);
+  border-radius: 20px;
+  margin-left: 33%;
+  margin-top: 8%;
+}
+.login{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 38%;
+    font-size: 200%;
 }

@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(129, 100, 129);
+}
+.outline{
+    border: 2px solid black;
+    width: 70%;
+    height: 650px;
+    background-color: rgb(61, 21, 73);
+    margin-left: 15%;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+.image{
+    border-radius: 10px;
+    height: 630px;
+    width: 30%;
+    margin-left: 1%;
+    margin-top: 0.80%;
+    position: absolute;
+}
+.para{
+   position: absolute;
+    margin-left: 8%;
+   margin-top: 33%;
+}
+.para2{
+    position: absolute;
+    margin-left: 9%;
+   margin-top: 35.80%; 
+}

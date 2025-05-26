@@ -1,0 +1,93 @@
+.req{
+    padding: 10px 12px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+transition: background-color 0.12s;
+margin-top: 2%;
+margin-left: 2%;
+}
+.req:hover{
+    background-color: rgb(66, 60, 60);
+    
+}
+.cart{
+    padding: 10px 40px;
+    margin-left: 2%;
+    border-radius: 50px;
+    background-color: rgb(244, 216, 56) ;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.10s;
+    margin-top: 2%;
+}
+.cart:hover{
+     background-color: rgb(177, 150, 15);
+}
+.sigup{
+     padding: 10px 40px;
+     background-color: green;
+     color: white;
+     margin-left: 2%;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: background-color 0.10s;
+      margin-top: 2%;
+}
+.signup:hover{
+box-shadow: black 10px;
+}
+.gs{
+    padding: 15px 40px;
+     background-color: rgb(125, 4, 149);
+     color: white;
+     margin-left: 2%;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: background-color 0.10s;
+      margin-top: 2%;
+}
+.gs:hover{
+background-color: rgb(116, 7, 131);
+}
+.dl{
+     padding: 15px 40px;
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     margin-left: 2%;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: background-color 0.10s;
+      margin-top: 2%;
+}
+.dl:hover{
+background-color: rgb(119, 107, 121);
+}
+.apply{
+    padding: 15px 80px;
+     background-color: rgb(17, 68, 151);
+     color: rgb(255, 255, 255);
+     margin-left: 2%;
+     border-radius: 50px;
+     cursor: pointer;
+     transition: background-color 0.10s;
+      margin-top: 2%;
+}
+.apply:hover{
+background-color: rgb(13, 51, 114);
+}
+.save{
+    padding: 15px 40px;
+     background-color: rgb(255, 255, 255);
+     color: rgb(9, 54, 106);
+     margin-left: 2%;
+     border-radius: 50px;
+     cursor: pointer;
+          transition: background-color 0.10s;
+           margin-top: 2%;
+
+}
+.save:hover{
+background-color: rgb(149, 189, 254);
+}

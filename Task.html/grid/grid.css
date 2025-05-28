@@ -1,0 +1,57 @@
+  body {
+      
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 8px;
+      width: 600px;
+    }
+
+    .box {
+      background-color: #9acd32;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      padding: 12px 0;
+      border-radius: 4px;
+    }
+    .b1 
+     {
+         grid-column: span 12;
+         }
+
+    .b2
+      { 
+        grid-column: span 6; 
+    }
+    .b3 
+     { 
+        grid-column: span 6; 
+    }
+    .b4, .b5, .b6
+     { 
+        grid-column: span 4;
+     }
+    .b7, .b8, .b9, .b10
+     {
+         grid-column: span 3; 
+        }
+    .b11, .b12, .b13, .b14, .b15, .b16
+    { 
+        grid-column: span 2;
+     }
+    .b17, .b18, .b19, .b20, .b21, .b22,
+    .b23, .b24, .b25, .b26, .b27, .b28 
+    { 
+        grid-column: span 1; 
+    }
+
+
+
+    

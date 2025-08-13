@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="appointment.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body style="background: url(images/consult-doctor.jpeg);background-size: cover;backdrop-filter: blur(10px);">
+
+
+
+
+
+<button style="width: 6rem; margin-left: 2rem;"><a href="main.html">Back</a></button>
+    <h1>Book an Appointment</h1>
+
+    <div class="appoint-container">
+ <div class="appointment-left-side-container">
+        <div class="appointment-left-side">
+            <h1 style="width: 40rem;">Set Your Appointment</h1>
+            <h3 style="margin-top: -2rem;">Booking</h3>
+            <h4 style="margin-top: -3rem;">Book Your Doctor Consultation</h4>
+        <p>"Please fill out the form right side to book your appointment with our doctor. Provide your contact details, preferred date and time, and a brief reason for your visit. This information helps us prepare for your consultation and ensure you receive the right care at the right time."</p></div>
+        <ul style="margin-left: -2rem; width: 44rem; font-size: 1.2rem;">
+            <li>Confirm your booking – We contact you via phone or email to verify your details and appointment time.</li>
+       <br><br>
+            <li>Prepare for your visit – Our medical team reviews your provided information to ensure a smooth and efficient consultation.</li>
+       <br><br>
+            <li>Send reminders – You receive an appointment reminder before your scheduled time.</li>
+       <br><br>
+            <li>Conduct the consultation – Meet with the doctor to discuss your health concerns, symptoms, and medical history.</li>
+       <br><br>
+            <li>Provide diagnosis and advice – The doctor explains findings and recommends the next steps or treatment.</li>
+        </ul>
+    </div>
+
+
+
+
+     <form class="appointment-form" action="https://formspree.io/f/movlyndr" method="post">
+    <h1>Book an Appointment</h1>
+
+    <label for="fullname">Full Name *</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="phone">Phone Number *</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+
+    <label for="doctor">Preferred Doctor</label>
+    <select id="doctor" name="doctor">
+      <option value="">Any available</option>
+      <option value="dr-patel">Dr. Ravi Patel — General</option>
+      <option value="dr-shah">Dr. Meera Shah — Cardiology</option>
+      <option value="dr-verma">Dr. Anita Verma — Pediatrics</option>
+    </select>
+
+    <label for="reason">Reason for Visit</label>
+    <input type="text" id="reason" name="reason">
+
+    <label for="date">Preferred Date *</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Preferred Time</label>
+    <input type="time" id="time" name="time">
+
+    <label for="notes">Additional Notes</label>
+    <textarea id="notes" name="notes"></textarea>
+
+    <div class="checkbox">
+      <input type="checkbox" id="urgent" name="urgent">
+      <label for="urgent">Urgent Appointment</label>
+    </div>
+
+<label for="notes">Meet link</label>
+    <textarea id="notes" name="notes"></textarea>
+
+    <button type="submit">Book Appointment</button>
+  </form>
+    </div>
+
+</body>
+</html>

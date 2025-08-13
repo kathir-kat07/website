@@ -1,0 +1,85 @@
+.appoint-container{
+    display: flex;
+    flex-direction: row;
+}
+
+/*appointment booking css*/
+    .appointment-form {
+      background: white;
+      padding: 20px 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 12px;
+    }
+    input, select, textarea, button {
+      width: 100%;
+      padding: 8px 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+    textarea {
+      resize: vertical;
+    }
+    button {
+      margin-top: 18px;
+      background-color: #007bff;
+      color: white;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .checkbox {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .checkbox input {
+      width: auto;
+      margin-right: 8px;
+    }
+/* appointment whole div*/
+   .appoint-container{
+   background: transparent;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 6rem;
+    justify-content: space-between;
+   } 
+   .appointment-image-container img{
+    height: 55rem;
+    width: 40rem;
+        z-index: 10;
+
+   }
+ /*appointment left side css*/
+ .appointment-left-side h1,h3{
+   font-family: 'Poppins';
+color: #057669;
+font-size: 3.5rem;
+}
+  .appointment-left-side h4{
+    font-size: 2rem;
+    margin-top: -0.2rem;
+  }
+ .appointment-left-side p{
+  font-size: x-large;
+  width: 52rem;
+ }

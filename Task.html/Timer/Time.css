@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 20rem;
+    height: 20rem;
+    background-color: aqua;
+    border-radius: 50%;
+    transition-duration: infinite;
+    transition-delay: 0.5s;
+    
+
+}
+p{
+    margin-top: 33%;
+    margin-left: 41%;
+    position: absolute;
+    font-size: 400%;
+}
+.inner-container{
+      width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: white;
+   margin: 12%;
+   position: relative;
+
+}
+
+@keyframes container{
+    from{
+        transform:rotate(0deg);
+    
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
